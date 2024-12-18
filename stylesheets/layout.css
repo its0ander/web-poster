@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    width: 100%;
+    /*display: block;*/
+    margin: 0%;
+    position: relative;
+}
+body::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: url('../images/maket_all.png');
+    opacity: 0,1;
+    width: 1280px;
+    height: 3113px;
+}
