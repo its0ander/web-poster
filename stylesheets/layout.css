@@ -376,4 +376,15 @@ gap: 0.8vw;
         width: 7.6vw;
         height: 11.8vw;
         position: absolute;
+        margin-left: 13vw;
+        margin-top: -22vw;
+}
+.znak_right {
+    background-image: url(../images/znak_right.png);
+    background-size: 7.6vw 12.4vw;
+    width: 7.6vw;
+    height: 12.4vw;
+    position: absolute;
+    margin-left: 74vw;
+    margin-top: -26vw;
 }
