@@ -1,19 +1,379 @@
-* {
-  box-sizing: border-box;
-}
-body {
-    width: 100%;
-    /*display: block;*/
-    margin: 0%;
+section {
+    width: 100vw;
     position: relative;
+    overflow: hidden;
 }
-body::after {
-    content: '';
+/* body {
+    background-color: #121212;
+} */
+ body {
+    background-image: url(../images/maket.svg);
+    height: 5000px;
+ }
+.znaki {
+    display: flex;
+    justify-content: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    gap: 2.5vw;
+    
+}
+.ramka {
+padding: 2vw;
     position: absolute;
-    top: 0%;
-    left: 0%;
-    background-image: url('../images/maket_all.png');
-    opacity: 0,1;
-    width: 1280px;
-    height: 3113px;
+    height: 8.7vw;
+    width: 95vw;
+    border: 0.5vw solid red;
+    
+}
+
+.first_krug {
+    margin-left: 5vw;
+}
+.try {
+    width: 9vw;
+    height: 9vw;
+    animation: krugi 10s linear infinite;
+}
+
+.prodlenie {
+    position: relative;
+    font-size: 0.72vw;
+        opacity: 0;
+}
+.gaechki {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+}
+.gaechka_1 {
+/* position: absolute; */
+    /* z-index: -1; */
+    /* width: 1.56vw;
+        height: 1.56vw; */
+    margin-top: 1vw;
+    margin-left: 0.88vw;
+}
+.gaechka_2 {
+ margin-top: 8.3vw;
+    margin-left: 0.88vw;
+}
+.gaechka_3 {
+margin-top: -11.8vw;
+    margin-left: 97.5vw;
+}
+.gaechka_4 {
+margin-top: 8.3vw;
+    margin-left: 97.5vw;
+}
+.a {
+    width: 100%;
+}
+.neo-car {
+    width: 80%;
+    margin-top: 11vw;
+      margin-left: 9.7vw;
+}
+.section_2 {
+    height: 40vw;
+}
+ .logo {
+    justify-content: center;
+ }
+
+ .ramka2 {
+     padding: 2vw;
+     position: absolute;
+     height: 34.7vw;
+     width: 95vw;
+     border: 0.5vw solid red;
+
+ }
+.gaika1 {
+    background-image: url(../images/gaika1_secondecran.png);
+    position: absolute;
+    margin-top: 28vw;
+    margin-left: 1vw;
+    background-size: 11vw;
+    width: 11vw;
+    height: 11.1vw;
+}
+.gaika2 {
+    background-image: url(../images/gaika2_secondecran.png);
+    position: absolute;
+    margin-top: -30.5vw;
+    margin-left: 90.7vw;
+    background-size: 7.9vw;
+    width: 7.9vw;
+    height: 7.9vw;
+}
+.section_3 {
+    /* width: 53.5vw; */
+    height: 40.5vw;
+}
+.elochki {
+    position: relative;
+    display: flex;
+        margin-top: 4vw;
+            margin-left: 2.5vw;
+            gap: 8.3vw;
+    z-index: 1;
+}
+.elka1 {
+    background-image: url(../images/elka.png);
+    background-size: 18.4vw 31.3vw;
+    width: 18.4vw;
+        height: 31.3vw;
+}
+.elka2 {
+    background-image: url(../images/elka.png);
+    background-size: 18.4vw 31.3vw;
+    width: 18.4vw;
+        height: 31.3vw;
+}
+.steklo_1 {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../images/steklo1.svg);
+    background-color: aqua;
+    background-size: 17.4vw 40.5vw;
+    width: 17.4vw;
+    height: 40.5vw;
+    opacity: 0.5;
+}
+.ramka3 {
+    padding: 2vw;
+        position: absolute;
+        height: 35.5vw;
+        width: 48.5vw;
+        border: 0.5vw solid red;
+}
+.text {
+    font-family: "Oswald";
+    color: aqua;
+    font-size: 3.75vw;
+    text-align: center;
+}
+.flexbox2 {
+    width: 52vw;
+    height: 34vw;
+}
+.together{
+    display: flex;
+}
+.flexbox1 {
+    height: 35.5vw;
+        width: 60vw;
+}
+.bubble {
+    width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    background-color: blue;
+    /* border: 0.5vw; */
+    /* padding: 10vw; */
+}
+.ramka4 {
+    padding: 2vw;
+    position: absolute;
+    height: 35.5vw;
+    width: 41.5vw;
+    border: 0.5vw solid red;
+}
+.poloski {
+    width: 89.6vw;
+    height: 0.9vw;
+    background-image: url(../images/polosochki.svg);
+    background-size: 89.6vw 0.9vw;
+    margin-top: 12vw;
+    margin-left: 5vw;
+    /* z-index: -1; */
+    position: absolute;
+}
+.thecars {
+    display: flex;
+    height: 19.4vw;
+    width: 100vw;
+    animation: car 10s linear infinite;
+}
+.run-car {
+width: 100%;
+position: relative;
+color: red;
+height: 19.4vw;
+padding-top: 3vw;
+/* justify-content: baseline;
+gap: 2.5vw; */
+}
+.BBB {
+    margin-left: 10vw;
+}
+.ramka5 {
+    padding: 2vw;
+        position: absolute;
+        height: 19.5vw;
+        width: 94.5vw;
+        border: 0.5vw solid red;
+}
+.section_4 {
+    height: 25vw;
+}
+.section_5 {
+    height: 41vw;
+}
+.left_car {
+    background-image: url(../images/car_left.png);
+    background-size: 41.17vw 19.2vw;
+    width: 41.17vw;
+    height: 19.2vw;
+    margin-left: -31vw;
+    position: absolute;
+}
+.right_car {
+    background-image: url(../images/car_right.png);
+    background-size: 41.17vw 19.2vw;
+    width: 41.17vw;
+    height: 19.2vw;
+    margin-left: 90vw;
+    position: absolute;
+}
+.mashinki {
+    display: flex;
+    /* gap: 70vw; */
+    margin-top: 10.5vw;
+}
+.text_main {
+    font-family: "Oswald";
+        color: #181818;
+        font-size: 7vw;
+        text-align: center;
+        position: absolute;
+            margin-left: 34.5vw;
+             margin-top: 6vw;
+             z-index: 2;
+}
+.fonariki {
+    position: absolute;
+}
+.light_left_top {
+    /* position: absolute; */
+    background-image: url(../images/light_left_top.svg);
+    background-size: 39.13vw 16.47vw ;
+    width: 39.13vw;
+    height: 16.47vw;
+    margin-left: 12vw;
+    margin-top: -3vw;
+    animation: light_top 5s linear infinite;
+    transform-origin: left;
+    
+}
+.light_left_bottom {
+    /* position: absolute; */
+    background-image: url(../images/light_left_bottom.svg);
+    background-size: 39.13vw 16.47vw;
+    width: 39.13vw;
+    height: 16.47vw;
+    margin-left: 12vw;
+    margin-top: -8vw;
+    animation: light_bottom 5s linear infinite;
+        transform-origin: left;
+}
+.light_right_top {
+    /* position: absolute; */
+    background-image: url(../images/light_right_top.svg);
+    background-size: 39.13vw 16.47vw;
+    width: 39.13vw;
+    height: 16.47vw;
+    margin-left: 51vw;
+    margin-top: -25vw;
+    animation: light_bottom 5s linear infinite;
+        transform-origin: right;
+}
+.light_right_bottom {
+    /* position: absolute; */
+    background-image: url(../images/light_right_bottom.svg);
+    background-size: 39.13vw 16.47vw;
+    width: 39.13vw;
+    height: 16.47vw;
+    margin-left: 51vw;
+    margin-top: -8vw;
+    animation: light_top 5s linear infinite;
+        transform-origin: right;
+}
+.ramka6 {
+    padding: 2vw;
+        position: absolute;
+        height: 36vw;
+        width: 94.5vw;
+        border: 0.5vw solid red;
+        z-index: 3;
+
+}
+.bolshie_krugi {
+display: flex;
+margin-left: 3vw;
+margin-top: 2.5vw;
+gap: 0.8vw;
+/* animation: krugi 10s linear infinite; */
+}
+.first_krugok {
+    background-image: url(../images/big_gaika.png);
+    background-size: 22.8vw 22.9vw;
+    width: 22.8vw;
+    height: 22.9vw;
+    animation: krugi 10s linear infinite;
+}
+.second_krugok {
+    background-image: url(../images/big_gaika.png);
+    background-size: 22.8vw 22.9vw;
+    width: 22.8vw;
+    height: 22.9vw;
+    animation: krugi 10s linear infinite;
+}
+.third_krugok {
+    background-image: url(../images/big_gaika.png);
+    background-size: 22.8vw 22.9vw;
+    width: 22.8vw;
+    height: 22.9vw;
+    animation: krugi 10s linear infinite;
+}
+.fourth_krugok {
+    background-image: url(../images/big_gaika.png);
+    background-size: 22.8vw 22.9vw;
+    width: 22.8vw;
+    height: 22.9vw;
+    animation: krugi 10s linear infinite;
+}
+.ramka7 {
+    padding: 2vw;
+        position: absolute;
+        height: 23vw;
+        width: 94.5vw;
+        border: 0.5vw solid red;
+        z-index: 3;
+}
+.section_6 {
+    height: 28vw;
+}
+.background_ecran {
+    background-image: url(../images/all_section7.svg);
+    background-size: 100vw 33.75vw;
+    width: 100vw;
+    height: 33.75vw;
+}
+.zerkalo {
+    background-image: url(../images/zerkalo.png);
+    background-size: 15.8vw 7.8vw;
+    width: 15.8vw;
+    height: 7.8vw;
+    position: absolute;
+    /* z-index: 2; */
+    margin-left: 41vw;
+}
+.znak_left {
+    background-image: url(../images/znak_left.png);
+        background-size: 7.6vw 11.8vw;
+        width: 7.6vw;
+        height: 11.8vw;
+        position: absolute;
 }
