@@ -21,6 +21,9 @@
         align-items: center;
         /* margin-left: 15vw; */
  }
+  .flexbox2 > div {
+    left: 40%;
+  }
 .flexbox1-ADAPT {
     display: block;
     
