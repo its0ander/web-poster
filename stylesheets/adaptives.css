@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+.section_3 {
+    overflow: hidden;
+}
+ .together{
+    display: block;
+    overflow: hidden;
+ }
+ .flexbox1 {
+    width: 100vw;
+    align-items: center;
+
+ }
+ .elochki {
+    margin-left: 30vw;
+    overflow: hidden;
+ }
+ .flexbox2{
+    overflow: hidden;
+    width: 100vw;
+        align-items: center;
+        /* margin-left: 15vw; */
+ }
+.flexbox1-ADAPT {
+    display: block;
+    
+}
+.flexbox1 {display: none;}
+}
+    

@@ -1,10 +1,10 @@
  @keyframes car {
     0% {
-            transform: translateX(-100%);
+            transform: translateX(-103.25vw);
         }
     
         100% {
-            transform: translateX(0%);
+            transform: translateX(0);
         }
  }
  @keyframes light_top {
@@ -40,4 +40,129 @@
             transform: rotate(360deg);
         }
  }
- 
+ @keyframes znak {
+    0% {
+        transform: translate(-2vw, -2vw);
+    }
+    100% {
+        transform: translate(-12vw, 6vw);
+    }
+ }
+ @keyframes znak_right {
+     0% {
+         transform: translate(0vw, 0vw);
+     }
+
+     100% {
+         transform: translate(16vw, 10vw);
+     }
+ }
+ @keyframes annualfall {
+     0% {
+         top: -6vw;
+         transform: rotate(10deg);
+     }
+
+     100% {
+         top: 100vw;
+         transform: rotate(40deg);
+     }
+ }
+
+ @keyframes festivalfall {
+     0% {
+         top: -6vw;
+         transform: rotate(0deg);
+     }
+
+     100% {
+         top: 100vw;
+         transform: rotate(-60deg);
+     }
+ }
+
+ @keyframes carsfall {
+     0% {
+         top: -6vw;
+         transform: rotate(-5deg);
+     }
+
+     100% {
+         top: 100vw;
+         transform: rotate(-40deg);
+     }
+ }
+ @keyframes strangefall {
+     0% {
+         top: -6vw;
+         transform: rotate(10deg);
+     }
+
+     100% {
+         top: 100vw;
+         transform: rotate(40deg);
+     }
+ }
+ .zerkalo:hover {
+ background-image: url(../images/razbitoe.png);
+ }
+ @keyframes gaika1translate {
+    0% {
+            transform: translateX(0%);
+        }
+    
+        50% {
+            transform: translateX(770%);
+        }
+                 100% {
+                     transform: translateX(0%);
+                 }
+ }
+ @keyframes znaki_rotate {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(360deg);
+     }
+    }
+@keyframes gaika2translate {
+            0% {
+                transform: translateX(0%);
+            }
+    
+            50% {
+                transform: translateX(-1100%);
+            }
+    
+            100% {
+                transform: translateX(0%);
+            }
+        }
+@keyframes steklo1_translate {
+    0% {
+            transform: translateX(0%);
+        }
+    
+        50% {
+            transform: translateX(200%);
+        }
+    
+        100% {
+            transform: translateX(0%);
+        }
+}
+@keyframes steklo2_translate {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(220%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}

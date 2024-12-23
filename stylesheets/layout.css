@@ -3,13 +3,18 @@ section {
     position: relative;
     overflow: hidden;
 }
-/* body {
-    background-color: #121212;
-} */
- body {
-    background-image: url(../images/maket.svg);
-    height: 5000px;
- }
+body {
+    background-color: #181818;
+}
+ /* body {
+    /* background-image: url(../images/maket.svg); */
+    /* height: 5000px; */
+ 
+.section_1 {
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
+        height: 12.7vw;
+}
 .znaki {
     display: flex;
     justify-content: flex;
@@ -18,14 +23,14 @@ section {
     gap: 2.5vw;
     
 }
-.ramka {
+/* .ramka {
 padding: 2vw;
     position: absolute;
     height: 8.7vw;
     width: 95vw;
     border: 0.5vw solid red;
     
-}
+} */
 
 .first_krug {
     margin-left: 5vw;
@@ -71,24 +76,27 @@ margin-top: 8.3vw;
 }
 .neo-car {
     width: 80%;
-    margin-top: 11vw;
+    margin-top: 8vw;
       margin-left: 9.7vw;
 }
 .section_2 {
-    height: 40vw;
+    height: 39vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
+        flex-direction: row;
 }
  .logo {
     justify-content: center;
  }
 
- .ramka2 {
+ /* .ramka2 {
      padding: 2vw;
      position: absolute;
      height: 34.7vw;
      width: 95vw;
      border: 0.5vw solid red;
 
- }
+ } */
 .gaika1 {
     background-image: url(../images/gaika1_secondecran.png);
     position: absolute;
@@ -97,19 +105,25 @@ margin-top: 8.3vw;
     background-size: 11vw;
     width: 11vw;
     height: 11.1vw;
+    animation: gaika1translate  8s linear infinite;
+    
 }
 .gaika2 {
     background-image: url(../images/gaika2_secondecran.png);
     position: absolute;
-    margin-top: -30.5vw;
+    margin-top: -27.5vw;
     margin-left: 90.7vw;
     background-size: 7.9vw;
     width: 7.9vw;
     height: 7.9vw;
+    animation: gaika2translate 10s linear infinite;
 }
 .section_3 {
     /* width: 53.5vw; */
-    height: 40.5vw;
+    /* height: 40vw; */
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
+        flex-direction: row;
 }
 .elochki {
     position: relative;
@@ -134,52 +148,181 @@ margin-top: 8.3vw;
 .steklo_1 {
     position: absolute;
     z-index: 2;
-    background-image: url(../images/steklo1.svg);
+    /* background-image: url(../images/steklo1.svg);
     background-color: aqua;
-    background-size: 17.4vw 40.5vw;
+    background-size: 17.4vw 40.5vw; */
+   filter: blur(50px);
+    background-color: #86d2eb;
     width: 17.4vw;
     height: 40.5vw;
     opacity: 0.5;
+    animation: steklo1_translate 6s linear infinite;
 }
-.ramka3 {
+/* .ramka3 {
     padding: 2vw;
         position: absolute;
         height: 35.5vw;
         width: 48.5vw;
         border: 0.5vw solid red;
-}
+} */
 .text {
     font-family: "Oswald";
-    color: aqua;
+    /* color: aqua; */
     font-size: 3.75vw;
     text-align: center;
 }
 .flexbox2 {
     width: 52vw;
-    height: 34vw;
+    height: 40vw;
+    border: 0.5vw solid grey;
+        border-radius: 1.9vw;
 }
 .together{
     display: flex;
 }
 .flexbox1 {
-    height: 35.5vw;
+    height: 40vw;
         width: 60vw;
+        border: 0.5vw solid grey;
+            border-radius: 2.4vw;
 }
-.bubble {
-    width: 23vw;
+/* .bubble { */
+    /* width: 23vw;
     height: 4.6vw;
     border-radius: 2.3vw;
-    background-color: blue;
+    background-color: blue; */
     /* border: 0.5vw; */
     /* padding: 10vw; */
-}
-.ramka4 {
+/* } */
+/* .ramka4 {
     padding: 2vw;
     position: absolute;
     height: 35.5vw;
     width: 41.5vw;
     border: 0.5vw solid red;
+} */
+ .annual {
+    margin-top: -10vw;
+    font-size: 3.75vw;
+ width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    background-color: #86D2EB;
+    position: absolute;
+    margin-left: 1vw;
+    animation: annualfall 3s linear infinite;
 }
+
+.flexbox1-ADAPT {
+    display: none;
+}
+.festival {
+    margin-top: -15vw;
+  font-size: 3.75vw;
+  position: absolute;
+width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+  margin-left: 15vw;
+  animation: festivalfall 3s linear infinite;
+  color: #000;
+  font-weight: bold;
+background-color: #FC7DFF;
+animation-delay: 1s;
+}
+.strange {
+    margin-top: -15vw;
+  font-size: 3.75vw;
+  position: absolute;
+  margin-left: 10vw;
+  animation: strangefall 3s linear infinite;
+  animation-delay: 2s;
+  color: black;
+  font-weight: bold;
+background-color: #FFFFFF;
+width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+}
+.cars {
+margin-top: -15vw;
+  font-size: 3.75vw;
+  position: absolute;
+width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+  margin-left: 4vw;
+ 
+background-color: #86D2EB;
+
+  animation: carsfall 3s linear infinite;
+  animation-delay: 3s;
+  color: #000;
+  font-weight: bold;
+}
+.annual1 {
+    margin-top: -15vw;
+    font-size: 3.75vw;
+    width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    background-color: #FC7DFF;
+    position: absolute;
+    margin-left: 1vw;
+    animation: annualfall 3s linear infinite;
+    animation-delay: 4s;
+}
+
+.festival1 {
+    margin-top: -15vw;
+    font-size: 3.75vw;
+    position: absolute;
+    width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    margin-left: 15vw;
+    animation: festivalfall 3s linear infinite;
+    color: #000;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    animation-delay: 5s;
+}
+
+.strange1 {
+    margin-top: -15vw;
+    font-size: 3.75vw;
+    position: absolute;
+    margin-left: 10vw;
+    
+    animation: strangefall 3s linear infinite;
+    /* animation-delay: 0.2s; */
+    color: black;
+    font-weight: bold;
+    background-color: #FC7DFF;
+    width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    animation-delay: 6s;
+}
+
+.cars1 {
+    margin-top: -15vw;
+    font-size: 3.75vw;
+    position: absolute;
+    width: 23vw;
+    height: 4.6vw;
+    border-radius: 2.3vw;
+    margin-left: 4vw;
+   
+    background-color: #86D2EB;
+
+    animation: carsfall 3s linear infinite;
+    animation-delay: 7s;
+    color: #000;
+    font-weight: bold;
+}
+
+ /* mmmmm */
 .poloski {
     width: 89.6vw;
     height: 0.9vw;
@@ -199,7 +342,7 @@ margin-top: 8.3vw;
 .run-car {
 width: 100%;
 position: relative;
-color: red;
+/* color: red; */
 height: 19.4vw;
 padding-top: 3vw;
 /* justify-content: baseline;
@@ -208,18 +351,22 @@ gap: 2.5vw; */
 .BBB {
     margin-left: 10vw;
 }
-.ramka5 {
+/* .ramka5 {
     padding: 2vw;
         position: absolute;
         height: 19.5vw;
         width: 94.5vw;
         border: 0.5vw solid red;
-}
+} */
 .section_4 {
-    height: 25vw;
+    height: 24vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
 }
 .section_5 {
-    height: 41vw;
+    height: 40vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
 }
 .left_car {
     background-image: url(../images/car_left.png);
@@ -300,7 +447,7 @@ gap: 2.5vw; */
     animation: light_top 5s linear infinite;
         transform-origin: right;
 }
-.ramka6 {
+/* .ramka6 {
     padding: 2vw;
         position: absolute;
         height: 36vw;
@@ -308,7 +455,7 @@ gap: 2.5vw; */
         border: 0.5vw solid red;
         z-index: 3;
 
-}
+} */
 .bolshie_krugi {
 display: flex;
 margin-left: 3vw;
@@ -344,22 +491,24 @@ gap: 0.8vw;
     height: 22.9vw;
     animation: krugi 10s linear infinite;
 }
-.ramka7 {
+/* .ramka7 {
     padding: 2vw;
         position: absolute;
         height: 23vw;
         width: 94.5vw;
         border: 0.5vw solid red;
         z-index: 3;
-}
+} */
 .section_6 {
-    height: 28vw;
+    height: 27vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
 }
 .background_ecran {
     background-image: url(../images/all_section7.svg);
     background-size: 100vw 33.75vw;
     width: 100vw;
-    height: 33.75vw;
+    height: 34vw;
 }
 .zerkalo {
     background-image: url(../images/zerkalo.png);
@@ -377,7 +526,8 @@ gap: 0.8vw;
         height: 11.8vw;
         position: absolute;
         margin-left: 13vw;
-        margin-top: -22vw;
+        margin-top: -24vw;
+        animation: znak 3.5s linear infinite;
 }
 .znak_right {
     background-image: url(../images/znak_right.png);
@@ -387,4 +537,70 @@ gap: 0.8vw;
     position: absolute;
     margin-left: 74vw;
     margin-top: -26vw;
+    animation: znak_right 3.5s linear infinite;
+}
+.section_7 {
+    height: 33vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
+}
+.podval {
+    color: #FFFFFF;
+    display: flex;
+}
+.gaika_rotate1 {
+    animation: znaki_rotate 8s linear infinite;
+}
+.steklo_2 {
+    filter: blur(10px);
+        background-color: white;
+        width: 23.6vw;
+        height: 23.6vw;
+        opacity: 0.5;
+        animation: steklo2_translate 6s linear infinite;
+        position: absolute;
+            z-index: 2;
+            border-radius: 50%;
+            margin-left: 10vw;
+            margin-top: 2vw;
+    
+}
+.gradient_podval {
+    background-image: url(../images/gradient_podval.png);
+    background-size: 99.9vw 20.9vw;
+    width: 99.9vw;
+    height: 20.9vw;
+    position: absolute;
+    /* margin-top: -6vw; */
+    /* z-index: -1; */
+}
+.podval {
+    font-size: 3.75vw;
+}
+.logo_podval {
+    background-image: url(../images/logo_podval.png);
+    background-size: 34.7vw 12.9vw;
+    width: 34.7vw;
+    height: 12.9vw;
+    margin-left: 3.6vw;
+    margin-top: 4.6vw;
+    z-index: 2;
+}
+.familia {
+    margin-top: 6vw;
+    margin-left: 2vw;
+    z-index: 2;
+}
+.kuratori {
+    margin-top: 6vw;
+    margin-left: 10.5vw;
+    z-index: 2;
+}
+.section_8 {
+    height: 20vw;
+    border: 0.5vw solid grey;
+        border-radius: 2.4vw;
+}
+.gradient_podval:hover {
+  opacity: 0;
 }
